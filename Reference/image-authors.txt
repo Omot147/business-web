@@ -1,0 +1,5 @@
+Photo by <a href="https://unsplash.com/@armedshutter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ayo Ogunseinde</a> on <a href="https://unsplash.com/photos/woman-looking-sideways-leaning-on-white-wall-6W4F62sN_yI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+logo from icons8  
+icons from fontawesome
+<i class="fa-duotone fa-regular fa-message-bot"></i>
+<a href="https://www.freepik.com/free-photo/silhouette-male-strict-suit-taking-notes-shadow-back-lit-white-background_24917254.htm#fromView=search&page=4&position=9&uuid=c58ae153-89aa-40a4-85df-3cfd58da56d9&query=Men+in+black+suit+standing+on+the+right+side+of+the+image">Image by KamranAydinov on Freepik</a>

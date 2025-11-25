@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Bitter:ital,wght@0,100..900;1,100..900&family=Kedebideri:wght@400;500;600;700;800;900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+#hero-section .container{
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    gap: 2em;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 100%;
+    background:black;
+    border-bottom: 1px solid red;
+}
+.logo{
+    display: flex;
+    gap: 1.3em;
+    margin-top: 10px;
+}
+.logo img{
+    display: block;
+}
+.logo h1{
+    padding: 11px;
+}
+nav{
+    background: transparent;
+    margin-top: 20px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+nav ul li{
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.4em;
+    color: #fff;
+    position: relative;
+    transition:  0.5s;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background:crimson;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width:100%;
+}
+.social{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.social .btn1{
+    margin-left: 8px;
+    padding: 10px;
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 25px;
+    border: none;
+    background: #ff004f;
+    color: #fff;
+    font-size: 10px;
+    font-weight: light;
+    transition: ease-in-out 0.3s;
+    margin-top: 10px;
+}
+.social .btn1:hover{
+    transform: scale(0.8);
+    font-weight: lighter;
+    color:#ff004f;
+    background: #fff;
+}
+.social .fa-brands{
+    margin-right: 14px;
+    font-size: 1.3em;
+    margin-top: 11px;
+}
+.logo h1{
+    font-size: 1.6em;
+    font-style: normal;
+    font-weight: lighter;
+    color: #ada8a8;
+}
+.logo h1 span{
+    color: #fff;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5em;
+}
+
+/*---------sub-hero--------------*/
+#sub-hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/mape\ pic.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position:  top right;
+}
+#sub-hero .container{
+    width: 100%;
+    height: 100vh;
+    background: black;
+    opacity: 0.8;
+    z-index: 1;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 9%;
+    gap: 2.3rem;
+    
+}
+#sub-hero .container h1{
+    color:#004acae8;
+}
+.header h2{
+    font-family: Kedebideri;
+    font-size: 8rem;
+    font-weight: lighter;
+}
+#sub-hero .header span{
+    color: red;
+    font-size: 9rem;
+}
+#sub-hero .container .btns{
+    display: inline-block;
+}
+#sub-hero .container .btn2,
+.btn3{
+    width: 8rem;
+    padding: 9px;
+    margin-right: 10px;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+}
+#sub-hero .container .btn2{
+    font-size: 19px;
+    background: red;
+    color: #fff;
+    transition:0.5s;
+}
+#sub-hero .container .btn2:hover{
+    background: #fff;
+    color: red;
+}
+#sub-hero .container .btn3{
+    font-size: 19px;
+    background:#fff;
+    transition: 0.5s;
+}
+#sub-hero .container .btn3:hover{
+    background:#ada8a8;
+}
+#mission .container{
+    background: #02050e;
+    width: 100%;
+    height: 100vh;
+}
+#mission .container .wrapper{
+    display:grid;
+    grid-template-rows: repeat(3,1fr);
+}
+
+
