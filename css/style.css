@@ -176,8 +176,69 @@ nav ul li a:hover::after{
     height: 100vh;
 }
 #mission .container .wrapper{
-    display:grid;
-    grid-template-rows: repeat(3,1fr);
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+    gap:3rem;
+    position: absolute;
+    top: 50rem;
+    margin-left: 7rem;
+}
+#mission .container .wrapper .box{
+ 
+    width: 400px;
+    height: 110px;
+    background: #fff;
+    border-radius: 25px;
+    border: none;
+    background: #131724;
+}
+
+@media only screen and (max-width: 680px){
+    #hero-section .container{
+        display:block;
+    }
+    #hero-section .container nav{
+        width: 100%;
+    }
+    #hero-section nav ul{
+      display:block ;
+     
+    }
+#hero-section nav ul li{
+    width: 100%;
+}
+    #hero-section nav ul a{
+        text-align: center;
+        display: block;
+        
+    }
+    #hero-section nav ul a:hover{
+        background: #ada8a8;
+        color: #ff004f;
+    }
+    #hero-section .container .social btn1{
+        display: none;
+    }
+    #mission .container .wrapper{
+        margin: 20px 11px;
+        gap: 15px;
+        display: block;
+        position: absolute;
+        top: 70rem;
+    }
+    #mission .container .wrapper .box{
+        margin-top: 20px;
+        width: 350px;
+        
+}
+    #sub-hero .container .header{
+        text-align: center;
+    }
+    #sub-hero .container .header h2{
+        font-size: 36px;
+    }
 }
 
 
